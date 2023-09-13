@@ -10,11 +10,14 @@
     "require": {
         "php": "^8.0.2",
         "fabpot/goutte": "^4.0",
+        "facebook/webdriver": "*",
         "guzzlehttp/guzzle": "^7.2",
         "jonnyw/php-phantomjs": "@dev",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
+        "maatwebsite/excel": "^3.1",
+        "php-webdriver/webdriver": "^1.14",
         "symfony/browser-kit": "^6.0",
         "symfony/dom-crawler": "^6.0",
         "weidner/goutte": "^2.2"
@@ -22,7 +25,7 @@
     "require-dev": {
         "dbrekelmans/bdi": "^1.0",
         "fakerphp/faker": "^1.9.1",
-        "laravel/dusk": "^7.4",
+        "laravel/dusk": "^7.7",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
